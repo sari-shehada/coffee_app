@@ -12,6 +12,7 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: kDesignSize,
+      fontSizeResolver: (fontSize, instance) => fontSize.toDouble(),
       builder:
           (context, child) => MaterialApp(
             theme: lightTheme,

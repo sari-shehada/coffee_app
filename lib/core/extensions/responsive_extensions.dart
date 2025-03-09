@@ -6,4 +6,6 @@ extension ResponsiveExtensions on num {
   double get fromHeight => h;
 
   double get fromRadius => r;
+
+  double get fromTextSize => sp;
 }

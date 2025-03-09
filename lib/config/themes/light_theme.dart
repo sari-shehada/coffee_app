@@ -20,6 +20,7 @@ final lightTheme = ThemeData(
     onSecondary: _surfaceWhite,
     error: Colors.red,
     onError: _surfaceWhite,
+    shadow: _shadowContainer,
   ),
 );
 
@@ -42,3 +43,5 @@ const Color _surfaceLightActive = Color(0xFFE3E3E3);
 const Color _surfaceLight = Color(0xFFF9F9F9);
 //Foundation/Surface/White
 const Color _surfaceWhite = Color(0xFFFFFFFF);
+//Container/Shadow Container
+const Color _shadowContainer = Color(0xFF050505);
