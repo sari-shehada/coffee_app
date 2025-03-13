@@ -21,6 +21,8 @@ final lightTheme = ThemeData(
     error: Colors.red,
     onError: _surfaceWhite,
     shadow: _shadowContainer,
+    tertiary: _tertiray,
+    tertiaryFixedDim: _tertiaryFixedDim,
   ),
 );
 
@@ -45,3 +47,7 @@ const Color _surfaceLight = Color(0xFFF9F9F9);
 const Color _surfaceWhite = Color(0xFFFFFFFF);
 //Container/Shadow Container
 const Color _shadowContainer = Color(0xFF050505);
+//Container/Container Gradiant
+const Color _tertiray = Color(0xFF313131);
+//Container/Container Gradiant
+const Color _tertiaryFixedDim = Color(0xFF111111);
