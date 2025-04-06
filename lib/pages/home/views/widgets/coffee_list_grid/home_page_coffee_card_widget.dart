@@ -1,6 +1,6 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/core/utils/ui/spacing/spacing_utils.dart';
-import 'package:coffee_app/models/coffee.dart';
+import '../../../../../core/extensions/responsive_extensions.dart';
+import '../../../../../core/utils/ui/spacing/spacing_utils.dart';
+import '../../../../../models/coffee.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
 

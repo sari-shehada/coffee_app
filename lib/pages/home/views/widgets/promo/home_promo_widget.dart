@@ -1,8 +1,9 @@
+import 'package:flutter/material.dart';
+
 import '../../../../../config/constants/images_paths.dart';
 import '../../../../../core/extensions/responsive_extensions.dart';
 import '../../../../../core/utils/ui/spacing/spacing_utils.dart';
 import 'promo_tag_widget.dart';
-import 'package:flutter/material.dart';
 
 class HomePromoWidget extends StatelessWidget {
   const HomePromoWidget({super.key});

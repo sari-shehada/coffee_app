@@ -1,6 +1,7 @@
-import '../../../../../core/extensions/responsive_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
+
+import '../../../../../core/extensions/responsive_extensions.dart';
 
 class HomeSearchFieldWidget extends StatelessWidget {
   const HomeSearchFieldWidget({super.key, this.height});

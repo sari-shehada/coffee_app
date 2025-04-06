@@ -1,4 +1,4 @@
-import 'package:coffee_app/pages/home/views/widgets/coffee_list_grid/home_page_coffee_grid_view.dart';
+import 'widgets/coffee_list_grid/home_page_coffee_grid_view.dart';
 
 import '../../../core/extensions/responsive_extensions.dart';
 import '../../../core/utils/ui/spacing/spacing_utils.dart';

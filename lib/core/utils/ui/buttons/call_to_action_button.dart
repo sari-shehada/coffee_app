@@ -1,5 +1,6 @@
-import '../../../extensions/responsive_extensions.dart';
 import 'package:flutter/material.dart';
+
+import '../../../extensions/responsive_extensions.dart';
 
 class CallToActionButton extends StatelessWidget {
   const CallToActionButton({

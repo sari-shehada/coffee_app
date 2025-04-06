@@ -1,5 +1,6 @@
-import 'theme_constants.dart';
 import 'package:flutter/material.dart';
+
+import 'theme_constants.dart';
 
 final lightTheme = ThemeData(
   fontFamily: fontFamily,

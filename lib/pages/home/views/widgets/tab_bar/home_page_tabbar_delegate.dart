@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 import '../../../../../core/extensions/color_extensions.dart';
 import '../../../../../core/extensions/list_extensions.dart';
 import '../../../../../core/extensions/responsive_extensions.dart';
 import 'home_page_tab_bar_item.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 //TODO find another implementation that doesnt enforce
 //setting a height constraint on the tabbar (to avoid reponsiveness issues)

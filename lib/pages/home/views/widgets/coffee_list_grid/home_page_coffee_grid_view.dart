@@ -1,5 +1,5 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/pages/home/views/widgets/coffee_list_grid/home_page_coffee_card_widget.dart';
+import '../../../../../core/extensions/responsive_extensions.dart';
+import 'home_page_coffee_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
