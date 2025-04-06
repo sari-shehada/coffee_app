@@ -1,7 +1,7 @@
-import 'package:coffee_app/core/extensions/color_extensions.dart';
-import 'package:coffee_app/core/extensions/list_extensions.dart';
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/pages/home/views/widgets/tab_bar/home_page_tab_bar_item.dart';
+import '../../../../../core/extensions/color_extensions.dart';
+import '../../../../../core/extensions/list_extensions.dart';
+import '../../../../../core/extensions/responsive_extensions.dart';
+import 'home_page_tab_bar_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

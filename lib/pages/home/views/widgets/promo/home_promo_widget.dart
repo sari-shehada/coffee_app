@@ -1,7 +1,7 @@
-import 'package:coffee_app/config/constants/images_paths.dart';
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/core/utils/ui/spacing/spacing_utils.dart';
-import 'package:coffee_app/pages/home/views/widgets/promo/promo_tag_widget.dart';
+import '../../../../../config/constants/images_paths.dart';
+import '../../../../../core/extensions/responsive_extensions.dart';
+import '../../../../../core/utils/ui/spacing/spacing_utils.dart';
+import 'promo_tag_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePromoWidget extends StatelessWidget {

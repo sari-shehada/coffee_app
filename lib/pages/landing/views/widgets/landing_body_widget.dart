@@ -1,9 +1,9 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/core/utils/ui/buttons/call_to_action_button.dart';
-import 'package:coffee_app/core/utils/ui/spacing/spacing_utils.dart';
-import 'package:coffee_app/pages/home/controllers/home_controller.dart';
-import 'package:coffee_app/pages/home/views/home_page.dart';
-import 'package:coffee_app/pages/landing/views/widgets/landing_text_widget.dart';
+import '../../../../core/extensions/responsive_extensions.dart';
+import '../../../../core/utils/ui/buttons/call_to_action_button.dart';
+import '../../../../core/utils/ui/spacing/spacing_utils.dart';
+import '../../../home/controllers/home_controller.dart';
+import '../../../home/views/home_page.dart';
+import 'landing_text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_instance/get_instance.dart';
 import 'package:get/route_manager.dart';

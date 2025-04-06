@@ -1,4 +1,4 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
+import '../../../extensions/responsive_extensions.dart';
 import 'package:flutter/material.dart';
 
 class CallToActionButton extends StatelessWidget {

@@ -1,5 +1,6 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../core/extensions/responsive_extensions.dart';
 
 class HomePageTabBarItem extends StatelessWidget {
   const HomePageTabBarItem({

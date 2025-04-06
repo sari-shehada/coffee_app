@@ -1,7 +1,7 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/pages/landing/views/widgets/landing_body_decoration_container.dart';
-import 'package:coffee_app/pages/landing/views/widgets/landing_body_widget.dart';
-import 'package:coffee_app/pages/landing/views/widgets/landing_image_widget.dart';
+import '../../../core/extensions/responsive_extensions.dart';
+import 'widgets/landing_body_decoration_container.dart';
+import 'widgets/landing_body_widget.dart';
+import 'widgets/landing_image_widget.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget {

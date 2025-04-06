@@ -1,4 +1,4 @@
-import 'package:coffee_app/config/themes/theme_constants.dart';
+import 'theme_constants.dart';
 import 'package:flutter/material.dart';
 
 final lightTheme = ThemeData(

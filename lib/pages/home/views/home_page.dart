@@ -1,10 +1,10 @@
-import 'package:coffee_app/core/extensions/responsive_extensions.dart';
-import 'package:coffee_app/core/utils/ui/spacing/spacing_utils.dart';
-import 'package:coffee_app/pages/home/controllers/home_controller.dart';
-import 'package:coffee_app/pages/home/views/widgets/header/home_location_text_widget.dart';
-import 'package:coffee_app/pages/home/views/widgets/header/home_search_and_filter_widget.dart';
-import 'package:coffee_app/pages/home/views/widgets/promo/home_promo_widget.dart';
-import 'package:coffee_app/pages/home/views/widgets/tab_bar/home_page_tabbar_delegate.dart';
+import '../../../core/extensions/responsive_extensions.dart';
+import '../../../core/utils/ui/spacing/spacing_utils.dart';
+import '../controllers/home_controller.dart';
+import 'widgets/header/home_location_text_widget.dart';
+import 'widgets/header/home_search_and_filter_widget.dart';
+import 'widgets/promo/home_promo_widget.dart';
+import 'widgets/tab_bar/home_page_tabbar_delegate.dart';
 import 'package:flutter/material.dart';
 import 'package:get/state_manager.dart';
 
