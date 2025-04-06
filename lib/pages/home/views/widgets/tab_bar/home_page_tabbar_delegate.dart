@@ -38,7 +38,7 @@ class HomePageTabbarDelegate extends SliverPersistentHeaderDelegate {
     final ColorScheme colorScheme = themeData.colorScheme;
     return AnimatedContainer(
       decoration: BoxDecoration(
-        color: colorScheme.surfaceContainerHighest,
+        color: colorScheme.surface,
         boxShadow: [
           if (overlapsContent) ...[
             BoxShadow(

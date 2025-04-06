@@ -1,3 +1,5 @@
+import 'package:coffee_app/pages/home/views/widgets/coffee_list_grid/home_page_coffee_grid_view.dart';
+
 import '../../../core/extensions/responsive_extensions.dart';
 import '../../../core/utils/ui/spacing/spacing_utils.dart';
 import '../controllers/home_controller.dart';
@@ -17,7 +19,7 @@ class HomePage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     final statusBarHeight = MediaQuery.paddingOf(context).top;
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: CustomScrollView(
         slivers: [
           SliverPersistentHeader(
@@ -35,17 +37,9 @@ class HomePage extends GetView<HomeController> {
               currentTabIndex: controller.currentIndex,
             ),
           ),
-          SliverList.list(
-            children: List.generate(20, (index) {
-              return Opacity(
-                opacity: .12,
-                child: Container(
-                  height: 50,
-                  width: double.infinity,
-                  color: index.isEven ? Colors.amber : Colors.amberAccent,
-                ),
-              );
-            }),
+          SliverPadding(
+            padding: EdgeInsets.symmetric(horizontal: 24.fromWidth),
+            sliver: HomePageCoffeeGridView(),
           ),
         ],
       ),
