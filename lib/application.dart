@@ -4,6 +4,7 @@ import 'package:coffee_app/config/themes/light_theme.dart';
 import 'package:coffee_app/pages/landing/views/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 class Application extends StatelessWidget {
   const Application({super.key});
@@ -14,7 +15,7 @@ class Application extends StatelessWidget {
       designSize: kDesignSize,
       fontSizeResolver: (fontSize, instance) => fontSize.toDouble(),
       builder:
-          (context, child) => MaterialApp(
+          (context, child) => GetMaterialApp(
             theme: lightTheme,
             scrollBehavior: ScrollBehaviorConfig(),
             home: LandingPage(),
