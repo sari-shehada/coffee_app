@@ -25,7 +25,7 @@ class LandingBodyWidget extends StatelessWidget {
           CallToActionButton(
             label: 'Get Started',
             callback:
-                () => Navigator.push(
+                () => Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(builder: (context) => HomePage()),
                 ),

@@ -21,22 +21,24 @@ class HomeLocationTextWidget extends StatelessWidget {
           ),
         ),
         AddVerticalSpacing(8.fromHeight),
-        Row(
-          children: [
-            Text(
-              'Bilzen, Tanjungbalai',
-              style: TextStyle(
-                fontSize: 14.fromTextSize,
+        Expanded(
+          child: Row(
+            children: [
+              Text(
+                'Bilzen, Tanjungbalai',
+                style: TextStyle(
+                  fontSize: 14.fromTextSize,
+                  color: colorScheme.surfaceContainerLow,
+                ),
+              ),
+              AddHorizontialSpacing(4.fromWidth),
+              Icon(
+                IconlyLight.arrow_down_2,
+                size: 14.fromTextSize,
                 color: colorScheme.surfaceContainerLow,
               ),
-            ),
-            AddHorizontialSpacing(4.fromWidth),
-            Icon(
-              IconlyLight.arrow_down_2,
-              size: 14.fromTextSize,
-              color: colorScheme.surfaceContainerLow,
-            ),
-          ],
+            ],
+          ),
         ),
       ],
     );
